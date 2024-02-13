@@ -103,11 +103,12 @@ button:hover{
 .img-p{
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .img-p .img{
   padding-right: 20px;
   /* width: fit-content; */
-  /* margin-right: -20px; */
+   margin-right: 20px; 
 } 
 .img-p  img{
   border: 2px solid #eee;
@@ -119,7 +120,7 @@ button:hover{
 }
 .img-p .text-sec2{
   padding-left: 20px;
-  width: fit-content;
+  width:60%;
 }
 .img-p .text-sec2 button{
   width: 100px;
@@ -162,9 +163,11 @@ button:hover{
 .section3 .categ{
   width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .categ ,.livi,.bed,.chlid{
-  margin: auto;
+  /*margin: auto;*/
 }
 .categ img{
   width: 250px;
@@ -177,17 +180,19 @@ button:hover{
 .section4{
   width: 100%;
   padding-top: 100px;
+  padding-bottom: 30px;
 }
 .section4 .sell{
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .sell p{
   margin-left:10px; 
+  width: 60%;
 }
 .sell .pic{
-  margin-right: 10px;
-  width: fit-content;
+  margin-right: 30px;
 }
 .sell img{
   border: 2px solid #eee;
@@ -200,11 +205,11 @@ button:hover{
 .section4 .sell2{
   width: 100%;
   display: flex;
+  justify-content: space-between;
   padding-top: 50px;
 }
 .sell2 .pic2{
-  margin-left: 10px;
-  width: fit-content;
+  margin-left: 30px;
 }
 .sell2 img{
   border: 2px solid #eee;
@@ -216,6 +221,7 @@ button:hover{
 }
 .sell2 p{
   margin-left: 20px;
+  width: 60%;
 }
 .section5{
   width: 100%;
@@ -224,10 +230,13 @@ button:hover{
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  justify-content: center;
+  padding-top: 150px;
   color: #eee;
+  gap: 100px;
 }
 .section5 .ul{
-  margin: auto;
+  /*margin: auto;*/
 }
 ul{
   list-style: none;
@@ -241,6 +250,9 @@ ul{
   margin-right: 10px;
   font-size: 30px;
 }
-.space{
+/*.space{
   width: 30%;
-} 
+}
+.space2{
+  width: 10%;
+}*/
